@@ -1,0 +1,267 @@
+*{
+margin:0;
+font-family:Arial;
+border:border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color: #222f3d;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.nav-logo{
+    height: 50px;
+    width:100px;
+}
+.logo{
+    background-image: url("https://img.freepik.com/premium-vector/jewelry-company-aesthetic-logo-design-inspiration_588166-116.jpg");
+    height:50px;
+    width:100%;
+    background-size: cover;
+}
+
+.border{
+    border: solid 1.5px transparent;
+}
+
+.border:hover{
+    border: solid 1.5px white;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size:1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+
+}
+
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(200, 161, 111);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: solid 2px rgb(200, 161, 111);
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 20px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #332f3e;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/033/259/838/non_2x/space-for-text-on-textured-background-surrounded-by-handmade-and-artisanal-jewelry-background-image-generative-ai-photo.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* transform: rotate(180deg); */
+}
+
+.hero-msg{
+    background-color: rgb(206, 192, 164);
+    color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(140, 144, 149);
+}
+
+.box{
+    height: 300px;
+    width: 24%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.box-img{
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px 15px ;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.box-content p{
+    color: blue;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    height: 200px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd ;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("https://img.freepik.com/premium-photo/designer-jewelry-background-add-touch-luxury-generative-ai_753390-1047.jpg");
+    height:55px;
+    /* width:100%; */
+    background-size: cover;
+    width: 100px;
+}
+
+.foot-panel4
+{
+    background-color: #222f3d;
+    color: white;
+    height: 50px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 8px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
+
+h3{
+    text-align: center;
+    color: #37475a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
